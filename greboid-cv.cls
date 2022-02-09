@@ -13,6 +13,7 @@
 \RequirePackage{fontspec}
 \RequirePackage{graphicx}
 \RequirePackage{multirow}
+\RequirePackage{ragged2e}
 \RequirePackage[default,semibold,light]{fonts/sourcesanspro}
 \renewcommand{\familydefault}{\sfdefault}
 
@@ -56,7 +57,7 @@
 \newcolumntype{K}{>{\hsize=.15\hsize}X}
 
 \newcommand{\summary}[1]{
-    #1 \vspace{0.5em}
+    \justifying#1 \vspace{0.5em}
 }
 
 \newcommand{\skilltype}[2]{
