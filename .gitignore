@@ -1,0 +1,9 @@
+.idea
+*.aux
+*.iml
+*.log
+*.out
+*.pdf
+*.fdb_latexmk
+*.fls
+*.xdv

@@ -1,0 +1,43 @@
+\documentclass[a4paper]{greboid-cv}
+\begin{document}
+    \cvheader{John}{Doe}{0123456789}{text@example.com}{example.com}{github}
+
+    \cvsection{Summary}
+    \summary{
+        I am a person who wants a job.
+    }
+
+    \cvsection{Skills}
+    %You can add multiple skill types here
+    \skilltype{Category A}{Some examples of category A}
+    \skilltype{Category B}{Some examples of category B}
+
+    \cvsection{Work Experience}
+    %You can add multiple Jobs here
+    \job{Job Title}{Some Company}{Start Date - End Date}
+   {
+   	A brief job description.
+   }
+   {
+   	\begin{itemize}
+   		%You can add multiple highlights here
+   		\item {Something you want to highlight}
+   	\end{itemize}
+   }
+
+    \cvsection{Professional Training}
+    %You can add multiple training entries here
+    \training{Course C}{Some Provider}{2022}
+    \training{Course D}{Some other Provider}{2021}
+
+    \cvsection{Education}
+    %You can add multiple educational courses here
+    \education{Some Course}{An Education Institution}{2020 - 2022}
+    \education{Some Other Course}{Some other Education Institution}{2018 - 2020}
+
+    \cvsection{Projects}
+    %You can add multiple projects here
+    \project{Dockerfiles}{github.com/greboid/cv}
+    {An easy-to-understand CV written in Latex}
+
+\end{document}
